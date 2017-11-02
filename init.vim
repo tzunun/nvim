@@ -7,12 +7,12 @@ set termguicolors
 syntax enable
 
 "Color Theme
-"colorscheme OceanicNext
+colorscheme OceanicNext
 "colorscheme OceanicNextLight
-colorscheme kalisi
+"colorscheme kalisi
 
 "Set Background Color
-set background=dark
+"set background=dark
 
 "Not compatible with vi
 set nocompatible

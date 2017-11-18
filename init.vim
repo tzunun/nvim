@@ -1,8 +1,9 @@
 "This is the basic neovim init.vim file by Antonio
 
 "Display True Color
-"set termguicolors "I turned this off because it solarized looks better with
-"the gnome terminal in solarized
+set termguicolors "I turned this off because solarized looks better with
+"the gnome terminal in solarized, but this causes cursorcolum to show-up as
+"underline.
 
 "Turn syntax highlighting on
 syntax enable
@@ -10,10 +11,11 @@ syntax enable
 "Color Theme
 "colorscheme OceanicNext
 "colorscheme OceanicNextLight
-"colorscheme kalisi
+colorscheme solarized
 
 "Set Background Color
 "set background=dark
+set background=light
 
 "Not compatible with vi
 set nocompatible
@@ -49,9 +51,9 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Make sure you use single quotes
 Plug 'mhartington/oceanic-next'
-Plug 'freeo/vim-kalisi'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'altercation/vim-colors-solarized'
 " Initialize plugin system
 call plug#end()
 

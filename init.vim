@@ -1,13 +1,14 @@
 "This is the basic neovim init.vim file by Antonio
 
 "Display True Color
-set termguicolors
+"set termguicolors "I turned this off because it solarized looks better with
+"the gnome terminal in solarized
 
 "Turn syntax highlighting on
 syntax enable
 
 "Color Theme
-colorscheme OceanicNext
+"colorscheme OceanicNext
 "colorscheme OceanicNextLight
 "colorscheme kalisi
 

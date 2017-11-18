@@ -50,5 +50,13 @@ call plug#begin('~/.config/nvim/plugged')
 " Make sure you use single quotes
 Plug 'mhartington/oceanic-next'
 Plug 'freeo/vim-kalisi'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 " Initialize plugin system
 call plug#end()
+
+" Use the pre-patched fonts, I already had powerline and powerline fonts
+" installed; displays the status line with the arrows instead of the
+" rectangles
+let g:airline_powerline_fonts = 1
+

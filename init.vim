@@ -12,7 +12,7 @@ set tabstop=2
 "Color Theme
 "colorscheme OceanicNext
 "colorscheme OceanicNextLight
-colorscheme solarized
+"colorscheme solarized
 
 "Set Background Color
 "set background=light
@@ -49,6 +49,16 @@ set smartindent
 
 "vim-plug
 call plug#begin('~/.config/nvim/plugged')
+
+" Deoplete
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
 
 " Make sure you use single quotes
 Plug 'mhartington/oceanic-next'

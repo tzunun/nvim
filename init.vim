@@ -1,7 +1,7 @@
 "This is the basic neovim init.vim file by Antonio
 
 "Display True Color
-set termguicolors "
+"set termguicolors "
 
 "Turn syntax highlighting on
 syntax enable

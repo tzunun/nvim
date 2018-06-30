@@ -5,6 +5,8 @@
 
 "Turn syntax highlighting on
 syntax enable
+"Show the matching part of the pair for [] {} adn ()
+set showmatch
 
 " Tabs
 set tabstop=2

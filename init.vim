@@ -1,10 +1,13 @@
 "This is the basic neovim init.vim file by Antonio
 
 "Display True Color
-"set termguicolors "
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 "Turn syntax highlighting on
 syntax enable
+
 "Show the matching part of the pair for [] {} adn ()
 set showmatch
 
@@ -12,9 +15,14 @@ set showmatch
 set tabstop=2
 
 "Color Theme
-"colorscheme OceanicNext
+"OceanicNext Color Theme
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
+colorscheme OceanicNext
 "colorscheme OceanicNextLight
-colorscheme solarized
+"
+"Solarized Color Theme
+"colorscheme solarized
 
 "Set Background Color
 "set background=light
@@ -27,7 +35,7 @@ set nocompatible
 set number
 
 "Highlight Line and Column
-set cursorline
+set cursorline 
 set cursorcolumn 
 
 "The following lines were assimilated from nicknisi init.vim file

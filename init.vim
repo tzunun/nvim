@@ -14,7 +14,7 @@ set tabstop=2
 "Color Theme
 "colorscheme OceanicNext
 "colorscheme OceanicNextLight
-"colorscheme solarized
+colorscheme solarized
 
 "Set Background Color
 "set background=light

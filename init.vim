@@ -1,9 +1,9 @@
 "This is the basic neovim init.vim file by Antonio
 
 "Display True Color
-if (has("termguicolors"))
- set termguicolors
-endif
+"if (has("termguicolors"))
+" set termguicolors
+"endif
 
 "Turn syntax highlighting on
 syntax enable
@@ -18,15 +18,15 @@ set tabstop=2
 "OceanicNext Color Theme
 let g:oceanic_next_terminal_bold = 1
 let g:oceanic_next_terminal_italic = 1
-colorscheme OceanicNext
+"colorscheme OceanicNext
 "colorscheme OceanicNextLight
 "
 "Solarized Color Theme
-"colorscheme solarized
+colorscheme solarized
 
 "Set Background Color
 "set background=light
-"set background=dark
+set background=dark
 
 "Not compatible with vi
 set nocompatible
@@ -60,12 +60,12 @@ set smartindent
 "vim-plug
 call plug#begin('~/.config/nvim/plugged')
 
-
 " Make sure you use single quotes
 Plug 'mhartington/oceanic-next'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'altercation/vim-colors-solarized'
+Plug 'exu/pgsql.vim'        " Syntax highlight for postgresql
 " Initialize plugin system
 call plug#end()
 
@@ -74,3 +74,5 @@ call plug#end()
 " rectangles
 let g:airline_powerline_fonts = 1
 
+" Default for SQL syntax
+let g:sql_type_default = 'psql'

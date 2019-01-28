@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/antonio/shellclass/testbox01/.vagrant'
+let g:netrw_dirhist_2='/home/tonio/repos'
+let g:netrw_dirhist_3='/home/tonio/repos/mlmusings.com'
+let g:netrw_dirhist_4='/home/tonio/repos/mlmusings.com/content'
+let g:netrw_dirhist_5='/home/tonio/repos/mlmusings.com/content/blog'

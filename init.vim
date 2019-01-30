@@ -26,7 +26,7 @@ colorscheme solarized
 
 "Set Background Color
 "set background=light
-set background=dark
+"set background=dark
 
 "Not compatible with vi
 set nocompatible
@@ -75,4 +75,4 @@ call plug#end()
 let g:airline_powerline_fonts = 1
 
 " Default for SQL syntax
-let g:sql_type_default = 'psql'
+let g:sql_type_default = 'pgsql'

@@ -8,7 +8,7 @@
 "Turn syntax highlighting on
 syntax enable
 
-"Show the matching part of the pair for [] {} adn ()
+" Show the matching part of the pair for [] {} adn ()
 set showmatch
 
 " Tabs
@@ -38,9 +38,11 @@ set number
 set cursorline 
 set cursorcolumn 
 
-"The following lines were assimilated from nicknisi init.vim file
+" Switch back and forth between dark and light color theme
+map <F12> :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 
-"remap esc to something easier on the digits, CapsLock is another option
+"The following lines were assimilated from nicknisi init.vim file
+"Remap esc to something easier on the digits, CapsLock is another option
 inoremap jk <esc>
 highlight Comment cterm=italic
 highlight htmlArg cterm=italic

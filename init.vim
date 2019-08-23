@@ -26,7 +26,7 @@ colorscheme solarized
 
 "Set Background Color
 "set background=light
-"set background=dark
+set background=dark
 
 "Not compatible with vi
 set nocompatible

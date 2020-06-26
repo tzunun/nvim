@@ -31,8 +31,9 @@ set background=dark
 "Not compatible with vi
 set nocompatible
 
-"Show line numbers
-set number
+"Show line numbers hybrid
+set number relativenumber
+
 
 "Highlight Line and Column
 set cursorline 
